@@ -1,0 +1,20 @@
+- model: movies.Movie
+  pk: 7E383F9C-5DC4-4B0D-9864-71E05A5D271B
+  fields:
+    title: Rogue One
+    description: "The Rebel Alliance makes a risky move to steal the plans for the Death Star, setting up the epic saga to follow. (133 mins.)"
+- model: movies.Movie
+  pk: 469FEC1F-5E9A-457C-92BF-682EA0A10EEF
+  fields:
+    title: Suicide Squad
+    description: "A secret government agency recruits some of the most dangerous incarcerated super-villains to form a defensive task force. Their first mission: save the world from the apocalypse. (123 mins.)"
+- model: movies.Movie
+  pk: 6279A5BE-F29F-4315-B975-9BE4FC596D84
+  fields:
+    title: 10 Cloverfield Lane
+    description: "After getting in a car accident, a woman is held in a shelter with two men, who claim the outside world is affected by a widespread chemical attack. (104 mins.)"
+- model: movies.Movie
+  pk: B28AA5FA-FA2C-4307-97BD-3DA02890BDC3
+  fields:
+    title: Zootopia
+    description: "In a city of anthropomorphic animals, a rookie bunny cop and a cynical con artist fox must work together to uncover a conspiracy. (108 mins.)"
