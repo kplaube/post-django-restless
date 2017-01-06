@@ -2,6 +2,8 @@
 
 Um exemplo de como utilizar o Django com a biblioteca Restless.
 
+Artigo completo: [Construindo APIs em Django com Restless](http://klauslaube.com.br/2017/01/06/construindo-apis-em-django-com-restless.html)
+
 Para instalar todas as dependências, utilize a task `setup` do `Makefile`:
 
 ```
