@@ -24,5 +24,18 @@ class MovieResource(DjangoResource):
     def detail(self, pk):
         return get_object_or_404(Movie, pk=pk)
 
+    def update(self, pk):
+        movie = self.detail(pk)
+
+        movie.title = self.data['title']
+        movie.description = self.data['description']
+        movie.save()
+
+        return movie
+
+    def delete(self, pk):
+        movie = self.detail(pk)
+        movie.delete()
+
     def is_authenticated(self):
         return True
